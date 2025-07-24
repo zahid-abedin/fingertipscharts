@@ -1,4 +1,4 @@
-
+**This package is no longer actively maintained**
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 [![R-CMD-check](https://github.com/publichealthengland/fingertipscharts/workflows/R-CMD-check/badge.svg)](https://github.com/publichealthengland/fingertipscharts/actions)
