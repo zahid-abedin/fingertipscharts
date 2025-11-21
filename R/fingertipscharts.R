@@ -4,7 +4,7 @@
 #'
 #' @section quick charts functions: Easy to produce Fingertips charts using
 #'   tidyverse syntax
-#' @docType package
+#' @docType _package
 #' @name fingertipscharts
 NULL
 globalVariables(c("no_domains"))

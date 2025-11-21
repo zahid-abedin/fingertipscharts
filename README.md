@@ -1,8 +1,18 @@
-**This package is no longer actively maintained**
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-[![R-CMD-check](https://github.com/publichealthengland/fingertipscharts/workflows/R-CMD-check/badge.svg)](https://github.com/publichealthengland/fingertipscharts/actions)
-[![codecov](https://codecov.io/gh/publichealthengland/fingertipscharts/branch/master/graph/badge.svg?token=D2X7WL46CC)](https://codecov.io/gh/publichealthengland/fingertipscharts)
+**This package is no longer actively maintained** </br>
+
+GSS analysis function now recommend using
+[afcharts](https://best-practice-and-impact.github.io/afcharts/) for
+producing branded accessible charts.
+
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/dhsc-govuk/fingertipscharts/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/dhsc-govuk/fingertipscharts/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/dhsc-govuk/fingertipscharts/graph/badge.svg)](https://app.codecov.io/gh/dhsc-govuk/fingertipscharts)
+<!-- badges: end -->
 
 # fingertipscharts
 
@@ -21,7 +31,7 @@ You can install the latest development version from github using
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("ukhsa-collaboration/fingertipscharts",
+remotes::install_github("dhsc-govuk/fingertipscharts",
                         build_vignettes = TRUE)
 ```
 
@@ -35,7 +45,7 @@ expanded in the packages vignette.
 ``` r
 library(fingertipscharts)
 library(dplyr)
-#> Warning: package 'dplyr' was built under R version 4.2.3
+#> Warning: package 'dplyr' was built under R version 4.4.3
 
 # Create the data to plot
 df <- create_test_data() %>%

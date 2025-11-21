@@ -59,7 +59,7 @@ Plot a choropleth map for an indicator
 }
 \examples{
 \dontrun{
-ons_api <- "https://opendata.arcgis.com/datasets/687f346f5023410ba86615655ff33ca9_4.geojson"
+ons_api <- "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Counties_and_Unitary_Authorities_December_2021_EN_BUC/FeatureServer/0/query?outFields=*&where=1\%3D1&f=geojson"
 
 p <- map(mapdata,
          ons_api = ons_api,
