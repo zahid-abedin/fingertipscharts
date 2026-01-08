@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
   fig.path = "man/figures/README-"
 )
 ```
-**This package is no longer actively maintained**
+**This package is no longer actively maintained and will be archived in February 2026**
 </br>
 
 GSS analysis function now recommend using [afcharts](https://best-practice-and-impact.github.io/afcharts/) for producing branded accessible charts. 
