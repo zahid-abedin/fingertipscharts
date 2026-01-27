@@ -31,7 +31,7 @@ You can install the latest development version from github using
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("dhsc-govuk/fingertipscharts",
+remotes::install_github("zahid-abedin/fingertipscharts",
                         build_vignettes = TRUE)
 ```
 

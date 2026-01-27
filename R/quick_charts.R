@@ -1208,12 +1208,13 @@ area_profiles <- function(data,
                   all.x =TRUE)
     }
 
-    fingertips_cols <- c('Better' = '#92D050', 'Same' = '#FFC000',
-                         'Worse' = '#C00000', 'Not compared' = '#C9C9C9',
-                         'None' = '#A6A6A6', 'Higher' = '#BED2FF',
-                         'Similar' = '#FFC000', 'Lower'='#5555E6',
+    fingertips_cols <- c('Better' = '#BED2FF', 'Same' = '#FFC000',
+                         'Worse' = '#5555E6', 'Not compared' = '#C9C9C9',
+                         'None' = '#A6A6A6', 'Higher' = '#92D050',
+                         'Similar' = '#FFC000', 'Lower'='#C00000',
                          'Worst' = '#FFFFFF','Q25' = '#C9C9C9',
                          'Q75' = '#8B8B8B','Best' = '#C9C9C9')
+
     if (length(cols) == 1) {
         if (cols == "fingertips") {
             cols <- fingertips_cols
